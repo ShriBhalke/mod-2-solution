@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serifs;
+}
+
+.box {
+    width: 30%;
+    height: 150px;
+    margin: 15px;
+    border: 2px solid black;
+    float: left;
+    overflow: hidden;
+    background-color: burlywood;
+}
+
+.one, .two, .three {
+    float: right;
+    margin: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border: 2px solid black;
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    position: relative;
+    text-align: center;
+    font-size: large;
+    padding-top: 0px;
+}
+
+.one {
+    background-color:aqua;
+}
+.two {
+    background-color: rgb(106, 69, 141);
+    color: white;
+}
+.three {
+    background-color: rgb(129, 115, 97);
+}
+
+.body {
+    margin: 30px;
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box{
+        overflow: hidden;
+        width: 40%;
+    }
+    #box3 {
+        width: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+    .box {
+      overflow: hidden;
+      width: 90%;
+    }
+  }
